@@ -1,29 +1,36 @@
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "ClearGlass Inc",
-  "url": "https://clearglassinc.github.io",
-  "telephone": "+1-289-707-0269",
-  "email": "Desmondotieno@icloud.com",
-  "description": "Ontario premier B2B cybersecurity and AI risk intelligence firm.",
-  "foundingDate": "2024",
-  "founder": {"@type": "Person", "name": "Desmond Otieno Odhiambo"},
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Burlington",
-    "addressRegion": "ON",
-    "addressCountry": "CA"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 43.3255,
-    "longitude": -79.7990
-  },
-  "areaServed": "Ontario",
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-    "opens": "09:00",
-    "closes": "18:00"
-  }
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "ClearGlass Inc",
+      "url": "https://clearglassinc.github.io",
+      "telephone": "+1-289-707-0269",
+      "email": "Desmondotieno@icloud.com",
+      "description": "Ontario premier B2B cybersecurity and AI risk intelligence firm. Burlington, Ontario.",
+      "foundingDate": "2024",
+      "founder": {"@type": "Person", "name": "Desmond Otieno Odhiambo"},
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Burlington",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.3255,
+        "longitude": -79.7990
+      },
+      "areaServed": "Ontario",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://github.com/ClearGlassInc"
+      ]
+    }
+  ]
 }
