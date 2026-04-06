@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ClearGlass Inc",
+  "url": "https://clearglassinc.github.io",
+  "logo": "https://clearglassinc.github.io/20260203_224147843_iOS.png",
+  "description": "Ontario premier B2B cybersecurity and AI risk intelligence firm. Burlington, Ontario, Canada.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Burlington",
+    "addressRegion": "ON",
+    "addressCountry": "CA"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "Desmondotieno@icloud.com",
+    "telephone": "+1-289-707-0269",
+    "contactType": "Customer Service"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Desmond Otieno Odhiambo"
+  },
+  "sameAs": [
+    "https://github.com/ClearGlassInc",
+    "https://linkedin.com/company/clearglassinc"
+  ]
+}
