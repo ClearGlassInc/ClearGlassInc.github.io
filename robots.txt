@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://clearglassinc.github.io/sitemap.xml
